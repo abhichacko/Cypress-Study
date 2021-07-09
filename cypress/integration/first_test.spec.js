@@ -22,8 +22,10 @@ describe("first test", () => {
         expect(placeholder).equal(usernameTextPlaceholder);
       });
 
-    cy.get("[data-testid=royal_email]").type("rinssebastian@gmail.com");
-    cy.get("[data-testid=royal_pass]").type("asdfsdghjsgdkaldf");
-    cy.get("[data-testid=royal_login_button]").click();
+    // cy.get("[data-testid=royal_email]").type("rinssebastian@gmail.com");
+    // cy.get("[data-testid=royal_pass]").type("asdfsdghjsgdkaldf");
+    // cy.get("[data-testid=royal_login_button]").click();
+
+    cy.get("[data-testid=open-registration-form-button]").click();
   });
 });
